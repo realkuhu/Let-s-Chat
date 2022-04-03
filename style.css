@@ -1,0 +1,26 @@
+html, body{
+    height:100%;
+    margin:0;
+}
+
+body {
+background-image: url("https://i.pinimg.com/originals/cc/f4/d8/ccf4d8c9807e30f200c52dcb754e6a6d.gif");
+text-align: center;
+background-color: rgb(154, 0, 125);
+color:aliceblue;
+}
+
+#mail{
+    height: 50px;
+    width:50px;
+}
+
+.logo{
+    height:200px;
+    width:200px;
+
+}
+
+.login_div{
+    background: rgba(17, 5, 84, 0.742);float: none;border-radius: 15px;
+}
