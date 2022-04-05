@@ -21,6 +21,7 @@ color:aliceblue;
 
 }
 
-.login_div{
+.login_div, .input_div_room_page{
     background: rgba(17, 5, 84, 0.742);float: none;border-radius: 15px;
 }
+
