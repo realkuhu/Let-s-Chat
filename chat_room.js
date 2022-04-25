@@ -19,8 +19,6 @@ user_name = localStorage.getItem("user_name")
     firebase.database().ref("/").child(room_name).update({
       purpose : "adding room name"
     });
-
-    
   }
 
 function getData() {firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("output").innerHTML = "";snapshot.forEach(function(childSnapshot) {childKey  = childSnapshot.key;
@@ -37,3 +35,10 @@ function redirectToRoomName (name){
   localStorage.setItem("room_name", name);
 window.location = "chat_page.html";
 }
+
+function logout(){
+localStorage.removeItem("user_name");
+localStorage.removeItem("room_name");
+window.location = "index.html";
+}
+
